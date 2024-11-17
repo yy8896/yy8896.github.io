@@ -108,7 +108,7 @@ img {
     width: 5px; /* 分隔线宽度 */
     background: linear-gradient(to right, #ccc, #f0f0f0); /* 从左到右的灰色渐变 */
     margin: 0 1rem; /* 左右间距 */
-    height: 100vh; /* 自动匹配内容高度 */
+    height: auto; /* 自动匹配内容高度 */
 }
 
 /* 右侧主要内容样式 */
