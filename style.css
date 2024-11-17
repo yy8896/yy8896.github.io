@@ -20,6 +20,14 @@ body {
     padding: 1rem;
     display: flex; /* 使用 flex 布局 */
     flex-direction: column; /* 垂直排列内容 */
+    align-items: center; /* 水平居中头像和个人信息 */
+    height: 100vh; 
+}
+
+/*图像设置为块级元素*/
+img {
+    display: block;
+    margin: 0 auto;
 }
 
 /* 个人信息样式 */
@@ -27,28 +35,26 @@ body {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    margin-left: 4.5rem;
     margin-bottom: 1rem;
 }
 
 .profile h1 {
     margin: 0.5rem 0;
     font-size: 1.2rem;
-    align-items: center; /* 水平居中头像和个人信息 */
-    text-align: center; /* 仅对头像和个人信息的文本居中 */
+    text-align: center; 
 }
 
 .profile p {
     margin: 0.3rem 0;
     font-size: 0.9rem;
-    align-items: center; /* 水平居中头像和个人信息 */
-    text-align: center; /* 仅对头像和个人信息的文本居中 */
+    text-align: center; 
 }
 
 /* 菜单样式 */
 .menu {
     width: 100%; /* 菜单占满导航栏宽度 */
-    padding-left: 6rem; /* 整体右移，调整此值控制移动距离 */
+    text-align: center; 
+    flex-grow: 1;
 }
 
 .menu ul {
@@ -68,10 +74,10 @@ body {
     display: block; /* 菜单项占整行，易于点击 */
 }
 
+/* 网站链接样式 */
 .WebSite {
     margin-top: auto; /* 将社交媒体链接推到最下方 */
     text-align: left; /* 左对齐社交媒体链接 */
-    padding-left: 7rem; /* 整体右移，调整此值控制移动距离 */
 }
 
 .WebSite ul {
@@ -96,7 +102,6 @@ body {
     display: flex;
     align-items: center; /* 对齐图标和文本 */
 }
-
 
 /* 分隔线样式 */
 .divider {
