@@ -136,6 +136,14 @@ img {
 
 .main-content ul, .main-content li {
     line-height: 1.2;
+    color: black;
     align-items: center;
     font-size: 15px;
+}
+
+.WebSite a {
+    text-decoration: none;
+    color: black; /* 保持默认字体颜色 */
+    padding: 0.5rem 0; /* 上下间距 */
+    display: flex;
 }
